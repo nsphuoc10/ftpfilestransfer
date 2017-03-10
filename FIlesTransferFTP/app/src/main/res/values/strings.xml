@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">FIlesTransferFTP</string>
+    <string name="remote_title">Remote files</string>
+    <string name="local_title">Local files</string>
+    <string name="act_accounts_title">FTP Accounts</string>
+    <string name="act_account_title">Account Editor</string>
+    <string name="empty"></string>
+
+    <!-- General -->
+    <string name="no_connection">Not connecting yet</string>
+
+    <!-- Menu drawer -->
+    <string name="menu_new_acc">New Account</string>
+    <string name="menu_accounts">Accounts</string>
+    <string name="menu_refresh">Refresh remote</string>
+    <!-- Support extension files -->
+    <string name="pdf">pdf</string>
+    <string name="word">word</string>
+    <string name="txt">text</string>
+    <string name="excel">excel</string>
+    <string name="audio">audio</string>
+    <string name="image">image</string>
+    <string name="video">video</string>
+
+    <!-- Item file-->
+    <string name="item_file_title">Android</string>
+    <string name="item_file_size">Folder</string>
+    <string name="item_file_date">05/01/2017</string>
+    <string name="item_file_folder">Folder</string>
+
+    <!-- Fragment files -->
+    <string name="frag_files_folder">sdcard ></string>
+    <string name="frag_files_greater">></string>
+
+    <!-- Dialog -->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_msg_download">Download this file?</string>
+    <string name="dialog_msg_upload">Upload this file?</string>
+    <string name="dialog_msg_waiting">Please wait&#8230;</string>
+    <string name="dialog_msg_pick_acc">Connect this FTPAccount?</string>
+    <string name="custom_dialog_edit">Edit</string>
+    <string name="custom_dialog_delete">Delete</string>
+    <string name="custom_dialog_cancel">Cancel</string>
+    <string name="custom_dialog_question">Edit or delete?</string>
+    <string name="custom_dialog_remind_delete">Really want to delete?</string>
+
+    <!-- Accounts -->
+    <string name="act_accounts_msg">Pick an FTPAccount to connect</string>
+    <string name="act_accounts_remind_connect">Connect this ftp account?</string>
+
+    <!-- Item FTPAccount-->
+    <string name="item_acc_username">abcd</string>
+    <string name="item_acc_username_label">Username: </string>
+    <string name="item_acc_host">123.123.123.123</string>
+    <string name="item_acc_host_label">Host: </string>
+    <string name="item_acc_port">21</string>
+    <string name="item_acc_port_label">Port: </string>
+
+    <!-- Add FTPAccount -->
+    <string name="act_acc_editor_host_label">Host: </string>
+    <string name="act_acc_editor_host_hint">Enter host here</string>
+    <string name="act_acc_editor_host_empty">Host field is empty</string>
+    <string name="act_acc_editor_port_label">Port</string>
+    <string name="act_acc_editor_port_hint">Enter port here</string>
+    <string name="act_acc_editor_port_empty">Port field is empty</string>
+    <string name="act_acc_editor_username_label">Username</string>
+    <string name="act_acc_editor_username_hint">Enter username here</string>
+    <string name="act_acc_editor_username_empty">Username field is empty</string>
+    <string name="act_acc_editor_password_label">Password</string>
+    <string name="act_acc_editor_password_hint">Enter password here</string>
+    <string name="act_acc_editor_password_empty">Password field is empty</string>
+
+</resources>

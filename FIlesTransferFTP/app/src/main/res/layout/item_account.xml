@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_acc_tv_username"
+        android:text="@string/item_acc_username"
+        android:textSize="18sp"
+        android:textColor="@color/Black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_acc_tv_host"
+        android:text="@string/item_acc_host"
+        android:layout_below="@+id/item_acc_tv_username"
+        android:layout_alignStart="@+id/item_acc_tv_username"
+        android:layout_alignLeft="@+id/item_acc_tv_username"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_acc_tv_port"
+        android:text="@string/item_acc_port"
+        android:layout_below="@+id/item_acc_tv_username"
+        android:layout_toRightOf="@+id/item_acc_tv_host"
+        android:layout_toEndOf="@+id/item_acc_tv_host"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"/>
+</RelativeLayout>
